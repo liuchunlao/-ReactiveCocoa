@@ -51,15 +51,27 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vdO-KD-p8D">
+                                <rect key="frame" x="16" y="201" width="568" height="66"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Jf1-0U-rxM"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="XOS-cR-NFu" firstAttribute="width" secondItem="vdO-KD-p8D" secondAttribute="width" id="429-2X-gQN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XOS-cR-NFu" secondAttribute="trailing" id="7sE-84-630"/>
                             <constraint firstItem="u2r-dC-EoK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BNw-2D-F3n"/>
                             <constraint firstItem="XOS-cR-NFu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Cvy-ys-QZF"/>
                             <constraint firstItem="aVh-DI-BkJ" firstAttribute="top" secondItem="VBM-gt-ZXI" secondAttribute="bottom" constant="8" id="HIl-Xm-SqQ"/>
+                            <constraint firstItem="XOS-cR-NFu" firstAttribute="trailing" secondItem="vdO-KD-p8D" secondAttribute="trailing" id="JbR-IA-yT9"/>
+                            <constraint firstItem="XOS-cR-NFu" firstAttribute="leading" secondItem="vdO-KD-p8D" secondAttribute="trailing" constant="-568" id="Mf9-FO-hxX"/>
+                            <constraint firstItem="vdO-KD-p8D" firstAttribute="top" secondItem="XOS-cR-NFu" secondAttribute="bottom" constant="8" id="SMe-Nu-pRa"/>
                             <constraint firstItem="XOS-cR-NFu" firstAttribute="top" secondItem="aVh-DI-BkJ" secondAttribute="bottom" constant="13" id="UNP-eA-eQh"/>
                             <constraint firstItem="VBM-gt-ZXI" firstAttribute="top" secondItem="u2r-dC-EoK" secondAttribute="bottom" constant="8" id="bCl-Yh-7sh"/>
+                            <constraint firstItem="XOS-cR-NFu" firstAttribute="leading" secondItem="vdO-KD-p8D" secondAttribute="leading" id="cEE-Nh-rRX"/>
                             <constraint firstItem="u2r-dC-EoK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="fUC-KZ-gYp"/>
                             <constraint firstItem="VBM-gt-ZXI" firstAttribute="trailing" secondItem="u2r-dC-EoK" secondAttribute="trailing" id="gcQ-iw-6QZ"/>
                             <constraint firstItem="VBM-gt-ZXI" firstAttribute="leading" secondItem="aVh-DI-BkJ" secondAttribute="leading" id="k7V-n3-BcH"/>
@@ -70,6 +82,7 @@
                     </view>
                     <connections>
                         <outlet property="button" destination="XOS-cR-NFu" id="qLO-60-xI1"/>
+                        <outlet property="imageView" destination="vdO-KD-p8D" id="4Az-F7-IsC"/>
                         <outlet property="userNameField" destination="u2r-dC-EoK" id="S1x-4K-nK2"/>
                     </connections>
                 </viewController>

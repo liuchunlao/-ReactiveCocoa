@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120E25D81B10164100E9CC11 /* LVLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120E25D61B10164100E9CC11 /* LVLoginViewController.m */; };
+		120E25D91B10164100E9CC11 /* LVLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 120E25D71B10164100E9CC11 /* LVLoginViewController.xib */; };
 		127C9E1D1B0D7D020092A571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 127C9E1C1B0D7D020092A571 /* main.m */; };
 		127C9E201B0D7D020092A571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 127C9E1F1B0D7D020092A571 /* AppDelegate.m */; };
 		127C9E231B0D7D020092A571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127C9E221B0D7D020092A571 /* ViewController.m */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120E25D51B10164100E9CC11 /* LVLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVLoginViewController.h; sourceTree = "<group>"; };
+		120E25D61B10164100E9CC11 /* LVLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVLoginViewController.m; sourceTree = "<group>"; };
+		120E25D71B10164100E9CC11 /* LVLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LVLoginViewController.xib; sourceTree = "<group>"; };
 		127C9E171B0D7D020092A571 /* 学习ReactiveCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "学习ReactiveCocoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		127C9E1B1B0D7D020092A571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		127C9E1C1B0D7D020092A571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +98,9 @@
 				127C9E211B0D7D020092A571 /* ViewController.h */,
 				127C9E221B0D7D020092A571 /* ViewController.m */,
 				127C9E241B0D7D020092A571 /* Main.storyboard */,
+				120E25D51B10164100E9CC11 /* LVLoginViewController.h */,
+				120E25D61B10164100E9CC11 /* LVLoginViewController.m */,
+				120E25D71B10164100E9CC11 /* LVLoginViewController.xib */,
 				127C9E271B0D7D020092A571 /* Images.xcassets */,
 				127C9E291B0D7D020092A571 /* LaunchScreen.xib */,
 				127C9E1A1B0D7D020092A571 /* Supporting Files */,
@@ -226,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120E25D91B10164100E9CC11 /* LVLoginViewController.xib in Resources */,
 				127C9E261B0D7D020092A571 /* Main.storyboard in Resources */,
 				127C9E2B1B0D7D020092A571 /* LaunchScreen.xib in Resources */,
 				127C9E281B0D7D020092A571 /* Images.xcassets in Resources */,
@@ -279,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120E25D81B10164100E9CC11 /* LVLoginViewController.m in Sources */,
 				127C9E231B0D7D020092A571 /* ViewController.m in Sources */,
 				127C9E201B0D7D020092A571 /* AppDelegate.m in Sources */,
 				127C9E1D1B0D7D020092A571 /* main.m in Sources */,

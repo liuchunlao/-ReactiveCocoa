@@ -28,6 +28,10 @@
 @property (nonatomic, strong) RACCommand *loginCommand;
 
 
+/** 异步加载网络图片 */
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+
 @end
 
 @implementation ViewController
@@ -143,10 +147,28 @@
     [self demo6];
     
     
-    
 }
 
-
+#pragma mark - Design Guidelines
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    NSArray *strings = @[@"A", @"B", @"C"];
+    
+    RACSequence *quenece = [strings.rac_sequence map:^(NSString *str) {
+//        NSLog(@"%@", str);
+        return [str stringByAppendingString:@"_"];
+    }];
+    
+    NSString *concatA = quenece.head;
+    NSString *concatB = quenece.tail.head;
+    NSString *concat2 = quenece.tail.head;
+    
+    RACSequence *derivedQuence = [quenece map:^(NSString *str) {
+        return [@"_" stringByAppendingString:str];
+    }];
+    NSString *concat3 = derivedQuence.tail.head;
+    NSLog(@"%@", derivedQuence.head);
+    
+}
 
 
 
